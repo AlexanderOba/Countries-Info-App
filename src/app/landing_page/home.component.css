@@ -1,0 +1,33 @@
+.hmpgcontainer{
+    background-color: hsl(0, 0%, 98%);
+}
+.hmepgbdywrap{
+    padding: 35px 62px 500px;
+}
+.hmpginputwrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.searchinput{
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 7px 20px 7px 51px;
+    background-image: url(../../assets/images/Search-icon.png);
+    background-position: 23px;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    height: 60px;
+    width: 25rem;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 7%);
+    outline: none;
+    border: none;
+}
+.hmpginputselect{
+    height: 60px;
+    width: 16rem;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 7%);
+}

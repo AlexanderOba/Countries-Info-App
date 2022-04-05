@@ -1,14 +1,22 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
+import { PersonsComponent} from './persons/persons.component'
+import { PersonsInputComponent } from './persons/persons-input.component';
+import { AppRoutingModule } from './app.routing.module';
+import { HttpClientModule } from '@angular/common/http'
+import { NavComponent } from './Navigation/nav.component';
+import { HomeComponent } from './landing_page/home.component';
+import { CountriesComponent } from './landing_page/listOfCountries.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,PersonsComponent,PersonsInputComponent,NavComponent,HomeComponent,CountriesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, FormsModule, AppRoutingModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

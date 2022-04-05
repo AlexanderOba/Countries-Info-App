@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'practice-project';
-}
+
+export class AppComponent {}
+
+
+//app component is d root component that holds the other created components
