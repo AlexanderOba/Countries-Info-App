@@ -9,11 +9,12 @@ import { HttpClientModule } from '@angular/common/http'
 import { NavComponent } from './Navigation/nav.component';
 import { HomeComponent } from './landing_page/home.component';
 import { CountriesComponent } from './landing_page/listOfCountries.component';
+import { CountryDetailsComponent } from './landing_page/country_details_page.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,PersonsComponent,PersonsInputComponent,NavComponent,HomeComponent,CountriesComponent
+    AppComponent,PersonsComponent,PersonsInputComponent,NavComponent,HomeComponent,CountriesComponent,CountryDetailsComponent
   ],
   imports: [
     BrowserModule, FormsModule, AppRoutingModule, HttpClientModule

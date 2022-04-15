@@ -5,3 +5,11 @@ body{
     box-sizing: border-box;
     font-family: Nunito Sans;
 }
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    color: #333;
+    text-decoration: none;
+}
