@@ -15,6 +15,7 @@ export interface countryDetails{
   languages: any,
   subregion: string,
   tld: string,
+  borders: string[],
 }
 @Component({
   selector: 'app-country-details',
@@ -26,6 +27,7 @@ export class CountryDetailsComponent implements OnInit{
  
   public countryDets: countryDetails[];
          isFetching = false;
+         borders?: string[];
 
   constructor(private countryInfo: HomeService, private route: ActivatedRoute){}
  
@@ -36,9 +38,9 @@ export class CountryDetailsComponent implements OnInit{
 
     this.countryInfo.fetchCountryInfo(name).subscribe( resData => {
       this.countryDets = resData;
-      console.log(resData);
+      this.borders = this.countryDets[0].borders
       this.isFetching = false;
-      console.log("country name is :",this.countryDets)
+      console.log(resData);
   })
     this.isFetching = true; 
   }

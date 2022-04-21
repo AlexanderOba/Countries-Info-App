@@ -18,5 +18,5 @@ export class PersonsInputComponent {
         this.enterPersonName = '';
     }
 }
-// output()declarator  is used for event binding or it tells the angular dat d data will come from the dom
-// output declarator is also used infront of an eventEmitter
+// output()decorator  is used for event binding or it tells the angular dat d data will come from the dom
+// output decorator is also used infront of an eventEmitter

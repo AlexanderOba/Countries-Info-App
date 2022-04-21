@@ -72,7 +72,7 @@
     padding: 4px 22px;
     font-size: 14px;
     background-color: #ffffff;
-    margin-left: 11px;
+    margin-right: 11px;
     margin-bottom: 11px;
     display: inline-block;
 }
@@ -98,7 +98,8 @@
 }
 .bordertitle{
     font-size: 15px;
-    font-weight: 600px;
+    margin-right: 13px;
+    font-weight: 600;
 }
 @media(max-width: 760px){
 .navbarwraper{   
@@ -128,5 +129,5 @@
 }
 .card-details-span{
     font-weight: 600;
-    margin-right: 7px;
+    margin-right: 2px;
 }

@@ -52,17 +52,12 @@
             <div class="card-details">
               <div class= "bordercountrieswraper">
                 <div class="bordertitle">Border Countries:</div>
-                <!-- {country?.country?.[0]?.borders?.map((item, i)=>{
-                  return (
-                  <div class="bordercountriesbtn" key={i}>{item}</div>
-                  )
-                })  
-                } 
+                <div class="bordercountriesbtn" *ngFor="let item of borders">{{item}}</div>
               </div>
             </div>
           </div>
         </div>
-    </div> -->
+    </div> 
     </div>
   </div>
 </div>
